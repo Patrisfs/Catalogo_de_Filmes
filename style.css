@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+body{
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+header{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 1px 12px rgb(0, 0, 0);
+
+}
+#cabeçalho{
+    width: 300px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 16px;
+}
