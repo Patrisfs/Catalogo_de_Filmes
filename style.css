@@ -97,7 +97,7 @@ input:hover{
 #grid{
     display: flex;
 }
-#img1, #img2{
+#img1, .img{
     width: 160px;
     height: 240px;
     border-radius: 8px;
@@ -107,22 +107,46 @@ input:hover{
     position: relative;
     margin-left: 30px;
     list-style-type: none;
+
 }
-#recomendados > ul{
- 
+.icons{
+    display: flex;
+    margin-top: 3px;
+    padding-left: 4px;
+    font-size: 13px;
 }
-#firstMovie{
+.title{
+    width: 80%;
+}
+.icons > i{
+    padding-left: 8px;
+}
+.movies{
     background-color:  rgb(19, 19, 19);
     box-shadow: 0px 3px 14px #000000;
     position: absolute;
     width: 162px;
     padding-top: 3px;
     border-radius: 8px;
-    height: 310px;
+    height: 320px;
     left: 15px;
     top: 30px;
     transform: scale(1.2);
 }
+.movies > span{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    margin-top: 8px;
+}
+.movies > span > p{
+    position: absolute;
+    font-size: 14px;
+}
+.movies > span > .time{
+    left: 105px;
+}
+
 /*add description quando mouseover com icons*/
 /*fazer responsividade no site, para celulares*/
 
