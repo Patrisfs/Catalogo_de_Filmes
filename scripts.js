@@ -1,5 +1,5 @@
 //váriaveis
-const img1 = document.querySelector("#img1");
+const firstLi = document.querySelector("#firstLi");
 const firstMovie = document.querySelector("#firstMovie")
 
 //funções
@@ -7,10 +7,14 @@ function imgFocus(){
    firstMovie.classList.toggle("hide");
 }
 //Eventos
-img1.addEventListener("mouseover", (e)=>{
+firstLi.addEventListener("mouseover", (e)=>{
     imgFocus();
 
 });
-img1.addEventListener("mouseout", (e)=>{
+firstLi.addEventListener("mouseout", (e)=>{
     imgFocus();
 });
+
+
+//deixar responsivo
+//add selectorAll para otimizar
