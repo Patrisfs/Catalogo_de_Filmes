@@ -119,6 +119,10 @@ input:hover{
 #grid{
     display: flex;
 }
+
+#grid > li{
+    min-width: 110px;
+}
 .img{
     width: 160px;
     height: 240px;
