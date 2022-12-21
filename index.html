@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +7,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="style.css">
-    <script src="scripts.js"></script>
+    <script src="scripts.js" defer></script>
     <!--Boostrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 </head>
@@ -19,14 +19,36 @@
             <p>Minha Lista</p>
             <p>Novidades</p>
         </div>
-        <div>
+        <div id="search">
             <input type="text" id="input entrada" placeholder="Pesquisa">
             <i class="bi bi-search"></i>
         </div>
         <div id="login">
-            <i class="bi bi-bell"></i>
-            <i class="bi bi-box-arrow-in-right"></i>
+            <i class="bi bi-person-circle"></i>
+            <p id="loginTxt">Entrar/Registrar</p> 
         </div>
     </header>
+    <div id="container">
+        <div id="recomendados">
+        <ul>
+            <li>
+                <img id="img1" src="imgs/A1JVqNMI7UL._AC_SL1500_.jpg">
+                <div id="firstMovie" class="hide">
+                    <p id="title">Interstellar</p>
+                    <p id="year">2014</p>
+                    <p id="time">2h 49m</p>
+                </div>
+            </li>
+
+        </ul>
+
+        </div>
+        <div id="ultimosFilmes">
+
+        </div>
+        <div id="Premiados">
+
+        </div>
+    </div>
 </body>
 </html>
