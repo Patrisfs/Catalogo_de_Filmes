@@ -70,6 +70,7 @@ input:hover{
 }
 #login{
     width: 100px;
+    margin-right: 20px;
     display: flex;
     justify-content: space-around;
 }
@@ -94,20 +95,40 @@ input:hover{
     padding-top: 120px;
     padding-left: 5px;
 }
+.subTitle{
+    display: flex;
+    justify-content: left;
+}
+.subTitle > h1{
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 4px;
+    margin-left: 12px;
+}
+.subTitle > h1:hover{
+    color: var(--main-color);
+}
+.subTitle > i{
+    margin-left: 4px;
+    cursor: pointer;
+}
+#recomendados, #premiados, #principais{
+    margin-bottom: 40px;
+}
 #grid{
     display: flex;
 }
-#img1, .img{
+.img{
     width: 160px;
     height: 240px;
     border-radius: 8px;
     transition: 0.5s;
 }
-#recomendados > ul > li{
+li{
     position: relative;
-    margin-left: 30px;
+    margin-left: 10px;
     list-style-type: none;
-
 }
 .icons{
     display: flex;
@@ -120,6 +141,8 @@ input:hover{
 }
 .icons > i{
     padding-left: 8px;
+    font-size: 16px;
+    cursor: pointer;
 }
 .movies{
     background-color:  rgb(19, 19, 19);
@@ -149,6 +172,8 @@ input:hover{
 
 /*add description quando mouseover com icons*/
 /*fazer responsividade no site, para celulares*/
+
+
 
 
 

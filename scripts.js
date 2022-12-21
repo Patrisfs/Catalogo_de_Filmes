@@ -18,9 +18,12 @@ const movies = document.querySelectorAll("#movieBox");
 //funções
 function imgFocus(a){
     a.classList.toggle("hide");
+    a.style.zIndex = "1";
 }
 
+
 //Eventos
+
 
 li1.addEventListener("mouseover", (e)=>{
     imgFocus(movie1);
@@ -91,4 +94,57 @@ li8.addEventListener("mouseover", (e)=>{
 });
 li8.addEventListener("mouseout", (e)=>{
     imgFocus(movie8);
+});
+
+li9.addEventListener("mouseover", (e)=>{
+    imgFocus(movie9);
+
+});
+li9.addEventListener("mouseout", (e)=>{
+    imgFocus(movie9);
+});
+
+li10.addEventListener("mouseover", (e)=>{
+    imgFocus(movie10);
+
+});
+li10.addEventListener("mouseout", (e)=>{
+    imgFocus(movie10);
+});
+
+li11.addEventListener("mouseover", (e)=>{
+    imgFocus(movie11);
+
+});
+li11.addEventListener("mouseout", (e)=>{
+    imgFocus(movie11);
+});
+
+li12.addEventListener("mouseover", (e)=>{
+    imgFocus(movie12);
+
+});
+li12.addEventListener("mouseout", (e)=>{
+    imgFocus(movie12);
+});
+li13.addEventListener("mouseover", (e)=>{
+    imgFocus(movie13);
+
+});
+li13.addEventListener("mouseout", (e)=>{
+    imgFocus(movie13);
+});
+li14.addEventListener("mouseover", (e)=>{
+    imgFocus(movie14);
+
+});
+li14.addEventListener("mouseout", (e)=>{
+    imgFocus(movie14);
+});
+li15.addEventListener("mouseover", (e)=>{
+    imgFocus(movie15);
+
+});
+li15.addEventListener("mouseout", (e)=>{
+    imgFocus(movie15);
 });
